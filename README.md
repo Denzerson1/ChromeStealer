@@ -16,8 +16,8 @@ We then proceed to make an Sql Query to this SQLite Database, which gets the his
 
 `LoginData.py` copies the needed Database (Login Data) aswell. The Passwords in this DB are encrypted using AES, which we decrypt by getting the masterkey, stored in Local State DB, which we then decrypt using base64 and win32crypt.
 
-### 3) Webapp
+### 3) Card Stealer
 
-The Data will be sent to a node server (line 53) using a POST HTTP request with the attributes in the url. The attributes (URL, Username, Password) will be written into a json file (`speicher.json`, german for memory), which will then be read and displayed by a VueJS function in `index.html`.
+Same Concept
 
 
